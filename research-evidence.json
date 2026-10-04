@@ -1,0 +1,113 @@
+{
+  "query": {
+    "query": "sqlite migration in:description",
+    "url": "https://api.github.com/search/repositories?q=sqlite+migration+in%3Adescription&sort=stars&order=desc&per_page=10",
+    "observed_utc": "2026-10-04T12:43:43.177288+00:00",
+    "total": 770,
+    "results": [
+      {
+        "repo": "thelocalbranch/node-sqlite",
+        "stars": 934,
+        "url": "https://github.com/thelocalbranch/node-sqlite"
+      },
+      {
+        "repo": "DBDiff/DBDiff",
+        "stars": 746,
+        "url": "https://github.com/DBDiff/DBDiff"
+      },
+      {
+        "repo": "MaxHu-xuan/chat-archive-guard",
+        "stars": 657,
+        "url": "https://github.com/MaxHu-xuan/chat-archive-guard"
+      },
+      {
+        "repo": "halvardssm/deno-nessie",
+        "stars": 520,
+        "url": "https://github.com/halvardssm/deno-nessie"
+      },
+      {
+        "repo": "ruckus/ruckusing-migrations",
+        "stars": 499,
+        "url": "https://github.com/ruckus/ruckusing-migrations"
+      },
+      {
+        "repo": "medz/dart-orm",
+        "stars": 480,
+        "url": "https://github.com/medz/dart-orm"
+      },
+      {
+        "repo": "emilpriver/geni",
+        "stars": 273,
+        "url": "https://github.com/emilpriver/geni"
+      },
+      {
+        "repo": "garriguv/SQLiteMigrationManager.swift",
+        "stars": 228,
+        "url": "https://github.com/garriguv/SQLiteMigrationManager.swift"
+      },
+      {
+        "repo": "mocra/fmdb-migration-manager",
+        "stars": 146,
+        "url": "https://github.com/mocra/fmdb-migration-manager"
+      },
+      {
+        "repo": "Keats/dbmigrate",
+        "stars": 141,
+        "url": "https://github.com/Keats/dbmigrate"
+      }
+    ]
+  },
+  "comparables": [
+    {
+      "repository": "golang-migrate/migrate",
+      "url": "https://github.com/golang-migrate/migrate",
+      "observed_utc": "2026-10-04T12:36:29.170546+00:00",
+      "stargazers_count": 18953,
+      "pushed_at": "2026-09-09T05:06:21Z",
+      "archived": false,
+      "description": "Database migrations. CLI and Golang library.",
+      "default_branch": "master",
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      }
+    },
+    {
+      "repository": "pressly/goose",
+      "url": "https://github.com/pressly/goose",
+      "observed_utc": "2026-10-04T12:36:29.214513+00:00",
+      "stargazers_count": 11530,
+      "pushed_at": "2026-10-03T00:22:52Z",
+      "archived": false,
+      "description": "A database migration tool. Supports SQL migrations and Go functions. ",
+      "default_branch": "main",
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      }
+    },
+    {
+      "repository": "amacneil/dbmate",
+      "url": "https://github.com/amacneil/dbmate",
+      "observed_utc": "2026-10-04T12:36:29.242628+00:00",
+      "stargazers_count": 7433,
+      "pushed_at": "2026-09-30T04:43:25Z",
+      "archived": false,
+      "description": "\ud83d\ude80 A lightweight, framework-agnostic database migration tool.",
+      "default_branch": "main",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    }
+  ]
+}

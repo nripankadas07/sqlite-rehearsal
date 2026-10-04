@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sqlite-rehearsal"
+version = "0.1.0"
+description = "Rehearse SQLite migrations in memory and report schema changes without modifying the source."
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Nripanka Das"}]
+dependencies = []
+
+[project.scripts]
+sqlite-rehearsal = "sqlite_rehearsal:main"
+
+[tool.setuptools]
+py-modules = ["sqlite_rehearsal"]
