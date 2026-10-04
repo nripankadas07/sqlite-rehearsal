@@ -18,7 +18,9 @@ def rehearse(source,migration,timeout=5):
             return sqlite3.SQLITE_OK
         memory.set_authorizer(authorize);memory.set_progress_handler(lambda:int(time.monotonic()>deadline),1000)
         memory.executescript(migration)
-        memory.set_authorizer(None);memory.set_progress_handler(None,0)
+        # Python 3.10 cannot disable the authorizer with None. User SQL is done;
+        # permit only this function's own schema/integrity validation phase.
+        memory.set_authorizer(lambda *_args: sqlite3.SQLITE_OK);memory.set_progress_handler(None,0)
         foreign_keys=[list(x) for x in memory.execute('PRAGMA foreign_key_check')]
         integrity=[x[0] for x in memory.execute('PRAGMA integrity_check')]
         after=schema(memory)
